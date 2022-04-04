@@ -1,0 +1,18 @@
+WDV321 Advanced Javascript 
+TDD - Example
+
+Define the process and assumptions 
+	Validate the zip code field of a form
+	Return a customized string message for errors
+	Output will be used to display an error message to user on the form as they work
+	Will only accept 5 digit zip codes
+
+Our expectations:
+"Please enter a five digit zip code":
+a, fredd, t3st, INSERT INTO, 4-5-2, "", undefined, null, NaN, 0, "0", 00, 1, 123, 501, 1234A, $, ., +, -
+
+"Not a valid zip code"
+00000, 00500, 99951, 99999
+
+"Valid"
+00501, 99950, 20531

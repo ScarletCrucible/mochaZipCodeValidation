@@ -1,0 +1,28 @@
+{
+  "name": "mochazipcodevalidation",
+  "version": "1.0.0",
+  "description": "Test validation function for the zipe code form field",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.3.6"
+  },
+  "devDependencies": {
+    "mocha": "^9.2.2"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "author": "Leia Decker",
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ScarletCrucible/TDD-Mocha.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ScarletCrucible/TDD-Mocha/issues"
+  },
+  "homepage": "https://github.com/ScarletCrucible/TDD-Mocha#readme"
+}
